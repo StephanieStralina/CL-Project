@@ -2,7 +2,7 @@ $(document).ready(function(){
 });
 
 //Large Screen Check Scroll Event
-var screenSize = window.matchMedia("(min-device-width: 992px)");
+var screenSize = window.matchMedia("(min-width: 992px)");
 scrollFade(screenSize);
 screenSize.addListener(scrollFade);
 
