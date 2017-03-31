@@ -13,8 +13,6 @@ function scrollFade(screenSize){
      $(window).scroll(function(){
        $(".logo").css("opacity", 1 - $(window).scrollTop() / 600);
      });//do the thing
-  } else {
-    $(".logo").
   }
 }
 
