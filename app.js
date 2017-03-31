@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
 });
 
 //Large Screen Check Scroll Event
@@ -8,11 +7,12 @@ scrollFade(screenSize);
 screenSize.addListener(scrollFade);
 
 function scrollFade(screenSize){
-
    if (screenSize.matches){ // if media query matches
      $(window).scroll(function(){
        $(".logo").css("opacity", 1 - $(window).scrollTop() / 600);
      });//do the thing
+  } else {
+    $(window).off("scroll");
   }
 }
 
