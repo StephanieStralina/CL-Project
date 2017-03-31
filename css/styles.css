@@ -79,6 +79,8 @@ section {
 }
 
 .drop-button {
+  height: 8%;
+  width: auto;
   padding: 1.5em 1.5em;
   float: right;
   z-index: 2;
