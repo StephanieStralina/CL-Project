@@ -16,7 +16,6 @@ function scrollFade(screenSize){
   }
 }
 
-
   //Hamburger Mobile Menu Dropdown
   $(".drop-button").click(function() {
   $("body").toggleClass("overflowFreeze");
