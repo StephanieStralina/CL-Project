@@ -193,7 +193,7 @@ p {
 
 /************* Media Query Min-Width: 786 Tablets *************/
 
-@media (min-width: 768px) {
+@media (min-device-width: 768px) {
 
 /*Reset Styles*/
 .nav-dropdown,
@@ -293,7 +293,7 @@ section {
 
 
 /************* Media Query Min-Width: 992 Desktops *************/
-@media (min-width: 992px) {
+@media (min-device-width: 992px) {
 
 /*Show Elements*/
 #adoptForm {
